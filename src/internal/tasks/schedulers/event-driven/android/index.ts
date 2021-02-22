@@ -1,4 +1,4 @@
-import { android as androidApp } from "tns-core-modules/application/application";
+import { android as androidApp } from "@nativescript/core/application/application";
 
 import { TaskChainLauncher } from "..";
 import { EventData } from "../../../../events";

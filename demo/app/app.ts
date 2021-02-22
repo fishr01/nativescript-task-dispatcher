@@ -1,4 +1,4 @@
-import * as app from "tns-core-modules/application";
+import * as app from "@nativescript/core/application";
 import { taskDispatcher } from "nativescript-task-dispatcher";
 import { appTasks } from "./tasks";
 import { demoTaskGraph } from "./tasks/graph";

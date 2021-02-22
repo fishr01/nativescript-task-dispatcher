@@ -1,4 +1,4 @@
-import { ad } from "tns-core-modules/utils/utils";
+import { ad } from "@nativescript/core/utils/utils";
 
 import { createAppLaunchIntent } from "./intents.android";
 import { getLogger, Logger } from "../../../../utils/logger";

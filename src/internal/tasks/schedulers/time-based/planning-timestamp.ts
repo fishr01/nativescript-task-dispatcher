@@ -2,7 +2,7 @@ import {
   getNumber,
   setNumber,
   flush,
-} from "tns-core-modules/application-settings/application-settings";
+} from "@nativescript/core/application-settings/application-settings";
 import { now } from "../../../utils/time";
 
 const PREVIOUS_PLANNING_TIMESTAMP = "PREVIOUS_PLANNING_TIMESTAMP";

@@ -1,4 +1,4 @@
-import { android as androidApp } from "tns-core-modules/application/application";
+import { android as androidApp } from "@nativescript/core/application/application";
 
 export function now(): number {
   if (androidApp) {

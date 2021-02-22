@@ -255,7 +255,7 @@ The next thing to do is to initialize the task's dispatcher singleton object glo
 ```ts
 // app.ts / main.ts
 // TypeScript App:
-import * as app from "tns-core-modules/application";
+import * as app from "@nativescript/core/application";
 // or Angular App:
 import { platformNativeScriptDynamic } from "nativescript-angular/platform";
 import { AppModule } from "./app/app.module";
@@ -283,7 +283,7 @@ Finally, you'll need to decide where does your app generate the external event t
 // home-page.ts
 import { taskDispatcher } from "nativescript-task-dispatcher";
 
-import { NavigatedData, Page } from "tns-core-modules/ui/page";
+import { NavigatedData, Page } from "@nativescript/core/ui/page";
 import { HomeViewModel } from "./home-view-model";
 
 export function onNavigatingTo(args: NavigatedData) {
